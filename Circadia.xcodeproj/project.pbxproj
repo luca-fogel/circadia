@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01BCF967C93D608A783E24F6 /* DisclaimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD252AEDDFF197F395DFA4 /* DisclaimerView.swift */; };
+		1E2E626AD9A8836A57DC571D /* TripDraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA01B42A00591B9B424A532 /* TripDraft.swift */; };
+		2043A2399C92AC5E91C523B2 /* LocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D408AA142D76DD671096D1 /* LocationProvider.swift */; };
+		2CAFF7710F328A1BF50CD50F /* StoredTrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7895D026111D4AAD1F92221B /* StoredTrip.swift */; };
+		313985125BC308F23B31FF8B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427D532992436E28B96FC2DB /* Theme.swift */; };
+		45AB45BA1BDBF9D2B668D10F /* DemoScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705898995D396A3EE0176F6F /* DemoScreens.swift */; };
+		485B6AB5A871E59CAE0497F0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7B468CD0C1F2389FC68F73 /* SettingsView.swift */; };
+		6D587118F341C39581375C91 /* CircadiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E41F06B1A4A0FBB716F930 /* CircadiaApp.swift */; };
+		7197A35A9C3EA911C1C0E4B9 /* OnboardingFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CE54BDF5659363B18664AB /* OnboardingFlow.swift */; };
+		8B64369BB4D4BACB13FC9F5D /* CircadianWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4DD23D0BC06AA9A6596161 /* CircadianWheel.swift */; };
+		8BED7375719EB762E18685BF /* NotificationScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FD91B21732C2101CC3E759 /* NotificationScheduler.swift */; };
+		8F2076366EEB9AC57BCA55DE /* PlanTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1517806D259DDAED14BD9011 /* PlanTimelineView.swift */; };
+		951840ABF17643A238C45CCA /* EventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CB4205A4C8CB20ED169356 /* EventRow.swift */; };
+		9A1F2786231512206B99C03C /* ConstraintEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5563EBCBEF392E02D7D209 /* ConstraintEditor.swift */; };
+		AA4B53BF32CAEB8DB20E5A8F /* PRCChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DC7BB8AE009301A565DAEE /* PRCChartView.swift */; };
+		C3E9A62B5811B2AD2DBA668C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76D5D576BBF74788E1961F4 /* Assets.xcassets */; };
+		CCCBFF928D76CC80F66E5A69 /* CircadianKit in Frameworks */ = {isa = PBXBuildFile; productRef = 88BAF115BC20E19780CEF951 /* CircadianKit */; };
+		D090A1E34DF399B5926E29CB /* PlacePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6BF6E584C1F91A60A91C92 /* PlacePicker.swift */; };
+		D25D61FF468076092F2331BB /* TripListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96010869B9CFB5DAB0747CF /* TripListView.swift */; };
+		F2033F4F60477B5FEE72D0E7 /* DayRibbon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44783B492ED9156F26EAE818 /* DayRibbon.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1517806D259DDAED14BD9011 /* PlanTimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanTimelineView.swift; sourceTree = "<group>"; };
+		21E41F06B1A4A0FBB716F930 /* CircadiaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircadiaApp.swift; sourceTree = "<group>"; };
+		25CE54BDF5659363B18664AB /* OnboardingFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlow.swift; sourceTree = "<group>"; };
+		26DC7BB8AE009301A565DAEE /* PRCChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PRCChartView.swift; sourceTree = "<group>"; };
+		427D532992436E28B96FC2DB /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		44783B492ED9156F26EAE818 /* DayRibbon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayRibbon.swift; sourceTree = "<group>"; };
+		57FD91B21732C2101CC3E759 /* NotificationScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationScheduler.swift; sourceTree = "<group>"; };
+		5D5563EBCBEF392E02D7D209 /* ConstraintEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintEditor.swift; sourceTree = "<group>"; };
+		6A6BF6E584C1F91A60A91C92 /* PlacePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacePicker.swift; sourceTree = "<group>"; };
+		705898995D396A3EE0176F6F /* DemoScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoScreens.swift; sourceTree = "<group>"; };
+		75CB4205A4C8CB20ED169356 /* EventRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRow.swift; sourceTree = "<group>"; };
+		7895D026111D4AAD1F92221B /* StoredTrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoredTrip.swift; sourceTree = "<group>"; };
+		8CA01B42A00591B9B424A532 /* TripDraft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDraft.swift; sourceTree = "<group>"; };
+		96EEE62A8B4466A545581102 /* Circadia.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Circadia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8D408AA142D76DD671096D1 /* LocationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationProvider.swift; sourceTree = "<group>"; };
+		B5AD252AEDDFF197F395DFA4 /* DisclaimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclaimerView.swift; sourceTree = "<group>"; };
+		BA90D79E899382B12749542C /* CircadianKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CircadianKit; path = Packages/CircadianKit; sourceTree = SOURCE_ROOT; };
+		D96010869B9CFB5DAB0747CF /* TripListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListView.swift; sourceTree = "<group>"; };
+		DD7B468CD0C1F2389FC68F73 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F76D5D576BBF74788E1961F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD4DD23D0BC06AA9A6596161 /* CircadianWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircadianWheel.swift; sourceTree = "<group>"; };
+		"TEMP_55B831EF-E336-4BB0-AB57-014436FF540B" /* Signing.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Signing.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A88823B7AE0C927CDB2DD3D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCCBFF928D76CC80F66E5A69 /* CircadianKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FD248FA31BE3F239BD5801F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7895D026111D4AAD1F92221B /* StoredTrip.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52B324FD2AE9E6B60639B3D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96EEE62A8B4466A545581102 /* Circadia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		632F026A2E96C3AB6CD03E47 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DBB88CB29573511DA804C3D4 /* Circadia */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		98B14420FD742C55785C2120 = {
+			isa = PBXGroup;
+			children = (
+				632F026A2E96C3AB6CD03E47 /* App */,
+				A10B0BE99CD54A667BBDA706 /* Packages */,
+				52B324FD2AE9E6B60639B3D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10B0BE99CD54A667BBDA706 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				BA90D79E899382B12749542C /* CircadianKit */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		AB2BC32165C055C375908B00 /* Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				FD4DD23D0BC06AA9A6596161 /* CircadianWheel.swift */,
+				44783B492ED9156F26EAE818 /* DayRibbon.swift */,
+				75CB4205A4C8CB20ED169356 /* EventRow.swift */,
+				1517806D259DDAED14BD9011 /* PlanTimelineView.swift */,
+				26DC7BB8AE009301A565DAEE /* PRCChartView.swift */,
+			);
+			path = Timeline;
+			sourceTree = "<group>";
+		};
+		B87463F5FDB88138432C63F7 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				5D5563EBCBEF392E02D7D209 /* ConstraintEditor.swift */,
+				25CE54BDF5659363B18664AB /* OnboardingFlow.swift */,
+				6A6BF6E584C1F91A60A91C92 /* PlacePicker.swift */,
+				8CA01B42A00591B9B424A532 /* TripDraft.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		D66B06D440AD1B7235AAD0A5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A8D408AA142D76DD671096D1 /* LocationProvider.swift */,
+				57FD91B21732C2101CC3E759 /* NotificationScheduler.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D66CC058E3C3D21E3EC772F7 /* Trips */ = {
+			isa = PBXGroup;
+			children = (
+				D96010869B9CFB5DAB0747CF /* TripListView.swift */,
+			);
+			path = Trips;
+			sourceTree = "<group>";
+		};
+		D9B24AB41B5ED9C6D1972F79 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				705898995D396A3EE0176F6F /* DemoScreens.swift */,
+				B5AD252AEDDFF197F395DFA4 /* DisclaimerView.swift */,
+				DD7B468CD0C1F2389FC68F73 /* SettingsView.swift */,
+				427D532992436E28B96FC2DB /* Theme.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		DBB88CB29573511DA804C3D4 /* Circadia */ = {
+			isa = PBXGroup;
+			children = (
+				4FD248FA31BE3F239BD5801F /* Model */,
+				B87463F5FDB88138432C63F7 /* Onboarding */,
+				D66B06D440AD1B7235AAD0A5 /* Services */,
+				D9B24AB41B5ED9C6D1972F79 /* Support */,
+				AB2BC32165C055C375908B00 /* Timeline */,
+				D66CC058E3C3D21E3EC772F7 /* Trips */,
+				F76D5D576BBF74788E1961F4 /* Assets.xcassets */,
+				21E41F06B1A4A0FBB716F930 /* CircadiaApp.swift */,
+			);
+			path = Circadia;
+			sourceTree = "<group>";
+		};
+		"TEMP_B6FB1A30-2887-4CD7-AFE3-CADF30601FFC" /* circadia */ = {
+			isa = PBXGroup;
+			children = (
+				"TEMP_55B831EF-E336-4BB0-AB57-014436FF540B" /* Signing.xcconfig */,
+			);
+			path = circadia;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7987DFDAB9D7AA08976322BD /* Circadia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB2DAA5E1E48C1583A4E877D /* Build configuration list for PBXNativeTarget "Circadia" */;
+			buildPhases = (
+				1C2C734C270334A00BECDAFB /* Sources */,
+				DFABBD4EB6EF16D93C9C5C4C /* Resources */,
+				A88823B7AE0C927CDB2DD3D0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Circadia;
+			packageProductDependencies = (
+				88BAF115BC20E19780CEF951 /* CircadianKit */,
+			);
+			productName = Circadia;
+			productReference = 96EEE62A8B4466A545581102 /* Circadia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73E6712C264F3F828A9C277A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7987DFDAB9D7AA08976322BD = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 34C09127A2D697023066544F /* Build configuration list for PBXProject "Circadia" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 98B14420FD742C55785C2120;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				815C35A5E2A9043ABC2EDD85 /* XCLocalSwiftPackageReference "Packages/CircadianKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 52B324FD2AE9E6B60639B3D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7987DFDAB9D7AA08976322BD /* Circadia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFABBD4EB6EF16D93C9C5C4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E9A62B5811B2AD2DBA668C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C2C734C270334A00BECDAFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D587118F341C39581375C91 /* CircadiaApp.swift in Sources */,
+				8B64369BB4D4BACB13FC9F5D /* CircadianWheel.swift in Sources */,
+				9A1F2786231512206B99C03C /* ConstraintEditor.swift in Sources */,
+				F2033F4F60477B5FEE72D0E7 /* DayRibbon.swift in Sources */,
+				45AB45BA1BDBF9D2B668D10F /* DemoScreens.swift in Sources */,
+				01BCF967C93D608A783E24F6 /* DisclaimerView.swift in Sources */,
+				951840ABF17643A238C45CCA /* EventRow.swift in Sources */,
+				2043A2399C92AC5E91C523B2 /* LocationProvider.swift in Sources */,
+				8BED7375719EB762E18685BF /* NotificationScheduler.swift in Sources */,
+				7197A35A9C3EA911C1C0E4B9 /* OnboardingFlow.swift in Sources */,
+				AA4B53BF32CAEB8DB20E5A8F /* PRCChartView.swift in Sources */,
+				D090A1E34DF399B5926E29CB /* PlacePicker.swift in Sources */,
+				8F2076366EEB9AC57BCA55DE /* PlanTimelineView.swift in Sources */,
+				485B6AB5A871E59CAE0497F0 /* SettingsView.swift in Sources */,
+				2CAFF7710F328A1BF50CD50F /* StoredTrip.swift in Sources */,
+				313985125BC308F23B31FF8B /* Theme.swift in Sources */,
+				1E2E626AD9A8836A57DC571D /* TripDraft.swift in Sources */,
+				D25D61FF468076092F2331BB /* TripListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		50B9B0FE7684674F8C8469D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.foggylulu.circadia;
+				PRODUCT_NAME = Circadia;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E4B3CCB386E6E056B290F00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = "TEMP_55B831EF-E336-4BB0-AB57-014436FF540B" /* Signing.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		A38B20C115A87E87EA9CAAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = "TEMP_55B831EF-E336-4BB0-AB57-014436FF540B" /* Signing.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		A866CB83A09E3C91C4708E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.foggylulu.circadia;
+				PRODUCT_NAME = Circadia;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34C09127A2D697023066544F /* Build configuration list for PBXProject "Circadia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E4B3CCB386E6E056B290F00 /* Debug */,
+				A38B20C115A87E87EA9CAAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FB2DAA5E1E48C1583A4E877D /* Build configuration list for PBXNativeTarget "Circadia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A866CB83A09E3C91C4708E5D /* Debug */,
+				50B9B0FE7684674F8C8469D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		815C35A5E2A9043ABC2EDD85 /* XCLocalSwiftPackageReference "Packages/CircadianKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/CircadianKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		88BAF115BC20E19780CEF951 /* CircadianKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CircadianKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 73E6712C264F3F828A9C277A /* Project object */;
+}

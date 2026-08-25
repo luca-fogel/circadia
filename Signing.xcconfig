@@ -1,0 +1,13 @@
+// Code-signing identity.
+//
+// This file is tracked; the file it includes is not. Put your own team in
+// Local.xcconfig and nothing here needs to change:
+//
+//     DEVELOPMENT_TEAM = ABCDE12345
+//
+// The `#include?` form makes the file optional, so a clone without it still
+// builds — it just cannot sign for a device until you add one. Simulator and
+// local Mac builds work either way.
+#include? "Local.xcconfig"
+
+CODE_SIGN_STYLE = Automatic
