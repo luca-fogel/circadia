@@ -1,0 +1,30 @@
+# The checks live in tools/check.sh so they can be run without GitHub:
+#
+#     tools/check.sh
+#
+# The app target is deliberately absent. Building it needs Xcode 16+ and an iOS
+# SDK, and pinning this workflow to a runner image that may not have them buys a
+# red badge that says nothing about the code. The README states the xcodebuild
+# commands for a local check instead.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: tools/check.sh
+    # macOS because CircadianKit needs a Swift toolchain.
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Toolchain
+        run: swift --version
+      - name: Run the same script a contributor runs
+        run: tools/check.sh
