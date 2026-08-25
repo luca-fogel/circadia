@@ -1,0 +1,4 @@
+# One identity, one entry. Without this the contributor graph splits a single
+# author across several spellings, which reads as a team that was never here.
+foggylulu <fogelrobion.l@northeastern.edu> <lucafogelrobion@gmail.com>
+foggylulu <fogelrobion.l@northeastern.edu> Luca Fogel Robion <fogelrobion.l@northeastern.edu>

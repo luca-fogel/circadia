@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xcuserdatad
+xcuserdata/
+*.hmap
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Local code-signing identity. Signing.xcconfig #include?s this file, so its
+# absence is not an error -- see that file for what to put in it.
+Local.xcconfig
+
+# Local agent / tooling state. These are created automatically by editor agents
+# and will be staged by `git add -A` before you think to exclude them.
+.claude/
+.claude-flow/
+
+# Secrets / local config
+*.env
