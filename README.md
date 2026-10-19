@@ -1,6 +1,6 @@
 # Circadia
 
-[![CI](https://github.com/foggylulu/circadia/actions/workflows/ci.yml/badge.svg)](https://github.com/foggylulu/circadia/actions/workflows/ci.yml)
+[![CI](https://github.com/luca-fogel/circadia/actions/workflows/ci.yml/badge.svg)](https://github.com/luca-fogel/circadia/actions/workflows/ci.yml)
 
 An hour-by-hour jet-lag plan, built from the published circadian literature.
 
@@ -122,7 +122,7 @@ beside the day's instructions instead of below them, because there is room.
 Requires **Xcode 16 or later** (developed against Xcode 26) and Swift 6.
 
 ```sh
-git clone https://github.com/foggylulu/circadia.git
+git clone https://github.com/luca-fogel/circadia.git
 cd circadia
 open Circadia.xcodeproj      # then ⌘R on My Mac or any iOS simulator
 ```
